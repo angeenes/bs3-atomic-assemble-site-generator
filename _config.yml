@@ -1,0 +1,15 @@
+# =============================================
+# Build config
+# =============================================
+
+root:
+src:              src
+dest:             dist
+assets:           <%= site.dest %>/assets
+
+# Templates
+templates:        src/templates
+partials:         <%= site.templates %>/partials/*.hbs
+layouts:          <%= site.templates %>/layouts
+layout:           <%= site.layouts %>/default.hbs
+pages:            <%= site.templates %>/pages
